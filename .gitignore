@@ -1,0 +1,5 @@
+# internal docs stay out of the public repo
+PRODUCT.md
+DESIGN.md
+.impeccable/
+.DS_Store

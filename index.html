@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jinimon — Mobile games and AI, from Riyadh</title>
+  <meta name="description" content="Jinimon is a Riyadh startup specialized in mobile game development and AI. Bridging both worlds.">
+  <meta name="theme-color" content="#0B0708">
+  <link rel="canonical" href="https://jinimon.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jinimon.com/">
+  <meta property="og:title" content="Jinimon — Bridging both worlds">
+  <meta property="og:description" content="A Riyadh startup specialized in mobile game development and AI.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500;700;800&family=Alexandria:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--
+THESIS: Jinimon bridges two worlds, mobile games and AI, and the page is the bridge:
+a Sadu loom whose bands are the Kingdom's own pixel geometry, lit like an LED
+matrix. It refuses the category default (near-black ground, one neon accent,
+glowing edges, floating phone mockups) and the startup default (gradient hero,
+three feature cards, logo wall).
+OWN-WORLD: committed Sadu crimson fields on a goat-hair black ground, ivory thread,
+ochre as the single hot accent, indigo as the one cool thread. Changa display in
+both scripts, Alexandria text. Hard pixel steps, zero rounded corners, 1px ivory
+rules, cells backlit by their own thread colour. Fully bilingual, full RTL mirror.
+STORY: a visitor lands on the tagline, understands in one line that a Riyadh
+startup builds mobile games and the AI inside them, then follows the studio or
+starts a partnership.
+FIRST VIEWPORT: full-bleed generative loom weaving in from the inline-end edge; the
+tagline at display scale in the current script with its echo in the other; one-line
+positioning; primary FOLLOW action and a secondary PARTNER link under it; thin nav
+band with wordmark and the EN/AR switch. Pointer pulls a thread: nearby cells
+brighten.
+FORM: Sadu band-weaving as luminous pixel matrix, candidate 3 of 7, seed 93679067.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish
+review, the verdict, DESIGN.md, and every shipping raster carrying its provenance.
+-->
+<a class="skip" href="#worlds" data-i18n="skip">Skip to content</a>
+
+<header class="band band--nav" id="top">
+  <a class="wordmark" href="#top" aria-label="Jinimon">
+    <span class="wordmark__pixel" aria-hidden="true"></span>
+    <span class="wordmark__latin">JINIMON</span>
+    <span class="wordmark__arabic" lang="ar" dir="rtl">جينيمون</span>
+  </a>
+  <nav class="nav" aria-label="Primary">
+    <a href="#worlds" data-i18n="nav.worlds">Two worlds</a>
+    <a href="#studio" data-i18n="nav.studio">Studio</a>
+    <a href="#players" data-i18n="nav.players">Players</a>
+    <a href="#partners" data-i18n="nav.partners">Partners</a>
+  </nav>
+  <button class="lang" id="langToggle" type="button">
+    <span class="lang__opt" data-lang="en">EN</span>
+    <span class="lang__opt" data-lang="ar" lang="ar">عربي</span>
+  </button>
+  <button class="menu" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Primary mobile" hidden>
+  <a href="#worlds" data-i18n="nav.worlds">Two worlds</a>
+  <a href="#studio" data-i18n="nav.studio">Studio</a>
+  <a href="#players" data-i18n="nav.players">Players</a>
+  <a href="#partners" data-i18n="nav.partners">Partners</a>
+</nav>
+
+<main>
+  <!-- HERO — the tagline leads -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <canvas class="loom" id="loom" aria-hidden="true"></canvas>
+    <div class="hero__inner">
+      <h1 class="hero__title" id="heroTitle" data-i18n="hero.title">Bridging both worlds</h1>
+      <p class="hero__echo" data-i18n-other="hero.title" lang="ar" dir="rtl">جسرٌ بين عالمين</p>
+      <p class="hero__hook" data-i18n="hero.hook">A startup in Riyadh, Saudi Arabia, building mobile games and the AI that makes them feel alive.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#players" data-i18n="hero.cta">Follow Jinimon</a>
+        <a class="btn btn--ghost" href="#partners" data-i18n="hero.secondary">Partner with us</a>
+      </div>
+      <p class="hero__status"><span class="dot" aria-hidden="true"></span><span data-i18n="hero.status">Riyadh, Saudi Arabia · Mobile games · AI</span></p>
+    </div>
+    <div class="hero__shuttle" aria-hidden="true"></div>
+  </section>
+
+  <!-- TWO WORLDS -->
+  <section class="section section--worlds" id="worlds" aria-labelledby="worldsTitle">
+    <div class="section__head">
+      <h2 class="h2" id="worldsTitle" data-i18n="worlds.title">Two worlds, one bridge</h2>
+      <p class="lede" data-i18n="worlds.lede">Most studios pick one. We build both, because the best mobile game of the next decade will be half game design and half intelligence.</p>
+    </div>
+    <div class="worlds">
+      <article class="world" data-thread="crimson">
+        <div class="world__art" data-pattern="diamond" aria-hidden="true"></div>
+        <div class="world__body">
+          <h3 class="world__title" data-i18n="worlds.games.t">Mobile games</h3>
+          <p data-i18n="worlds.games.p">Games for the phone in your hand: one rule you can explain in a breath, sessions that fit a train ride, controls that respect a thumb.</p>
+        </div>
+      </article>
+      <div class="bridge" aria-hidden="true"><span></span></div>
+      <article class="world" data-thread="indigo">
+        <div class="world__art" data-pattern="wave" aria-hidden="true"></div>
+        <div class="world__body">
+          <h3 class="world__title" data-i18n="worlds.ai.t">Artificial intelligence</h3>
+          <p data-i18n="worlds.ai.p">Models that learn how you play, adapt the next round to you, and run on the device, not in a data centre.</p>
+        </div>
+      </article>
+    </div>
+    <p class="worlds__bridge-line" data-i18n="worlds.bridge">The bridge: every game ships with its intelligence inside, and every model is trained on play.</p>
+  </section>
+
+  <!-- STUDIO — the ivory wool band -->
+  <section class="section section--studio" id="studio" aria-labelledby="studioTitle">
+    <div class="studio__grid">
+      <div class="studio__text">
+        <h2 class="h2" id="studioTitle" data-i18n="studio.title">Made in Riyadh</h2>
+        <p class="lede" data-i18n="studio.p1">Jinimon is a startup based in Riyadh, Saudi Arabia, specialized in mobile game development and artificial intelligence. We build games for the phone in your hand, and the intelligence that makes them feel alive.</p>
+        <p data-i18n="studio.p2">Two crafts on one loom: game design that respects a thumb and a train ride, and AI that learns how you play and weaves the next round around you.</p>
+      </div>
+      <ul class="panes" aria-label="Craft">
+        <li class="pane" data-thread="crimson"><h3 data-i18n="studio.design.t">Design</h3><p data-i18n="studio.design.p">One rule a player can repeat to a friend.</p></li>
+        <li class="pane" data-thread="ochre"><h3 data-i18n="studio.art.t">Art</h3><p data-i18n="studio.art.p">Geometry from here, readable at thumb size.</p></li>
+        <li class="pane" data-thread="indigo"><h3 data-i18n="studio.ai.t">AI</h3><p data-i18n="studio.ai.p">Models that learn how you play, on the device in your hand.</p></li>
+        <li class="pane" data-thread="black"><h3 data-i18n="studio.eng.t">Engineering</h3><p data-i18n="studio.eng.p">Sixty frames on a mid-range phone, in both scripts.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PLAYERS — follow -->
+  <section class="section section--players" id="players" aria-labelledby="playersTitle">
+    <div class="players__inner">
+      <h2 class="h2" id="playersTitle" data-i18n="players.title">Pull the first thread</h2>
+      <p class="lede" data-i18n="players.lede">Be first to hear about our games, playtests and releases. One email a month, nothing else.</p>
+      <!-- No backend yet: the form is intercepted in script.js. Wire action="" to your list provider. -->
+      <form class="follow" id="followForm" novalidate>
+        <label class="sr-only" for="email" data-i18n="players.label">Email address</label>
+        <input class="follow__input" id="email" name="email" type="email" inputmode="email" autocomplete="email" required placeholder="you@domain.com">
+        <button class="btn btn--primary" type="submit" data-i18n="players.cta">Follow Jinimon</button>
+      </form>
+      <p class="follow__note" id="followNote" role="status" aria-live="polite"></p>
+      <ul class="social" aria-label="Social">
+        <li><a data-i18n="social.x" data-replace="social url">X</a></li>
+        <li><a data-i18n="social.discord" data-replace="social url">Discord</a></li>
+        <li><a data-i18n="social.youtube" data-replace="social url">YouTube</a></li>
+        <li><a data-i18n="social.tiktok" data-replace="social url">TikTok</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PARTNERS & CAREERS -->
+  <section class="section section--partners" id="partners" aria-labelledby="partnersTitle">
+    <div class="duo">
+      <article class="duo__pane" data-thread="crimson">
+        <h2 class="h2 h2--small" id="partnersTitle" data-i18n="partners.title">Publishers and partners</h2>
+        <p data-i18n="partners.p">Platform holders, publishers and studios who want to build with us: we answer every message ourselves.</p>
+        <a class="btn btn--ghost" href="mailto:founder@jinimon.com" data-i18n="partners.cta">Start a conversation</a>
+      </article>
+      <article class="duo__pane" data-thread="ochre">
+        <h2 class="h2 h2--small" data-i18n="careers.title">Join the loom</h2>
+        <p data-i18n="careers.p">We hire game designers, artists, engineers and AI researchers in Riyadh and remotely. Show us one thing you made and loved.</p>
+        <a class="btn btn--ghost" href="mailto:founder@jinimon.com" data-i18n="careers.cta">See open roles</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="footer__weave" aria-hidden="true"></div>
+  <div class="footer__inner">
+    <a class="wordmark wordmark--footer" href="#top" aria-label="Jinimon">
+      <span class="wordmark__latin">JINIMON</span>
+      <span class="wordmark__arabic" lang="ar" dir="rtl">جينيمون</span>
+    </a>
+    <p class="footer__line" data-i18n="footer.line">A Riyadh startup bridging mobile games and AI.</p>
+    <p class="footer__contact"><span data-i18n="footer.contact">Write to us:</span> <a href="mailto:founder@jinimon.com" class="footer__mail">founder@jinimon.com</a></p>
+    <p class="footer__legal">© 2026 Jinimon · <span data-i18n="footer.rights">All rights reserved</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
