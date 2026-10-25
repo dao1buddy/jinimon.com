@@ -36,6 +36,7 @@
       "careers.cta": "See open roles",
       "footer.line": "A Riyadh startup bridging mobile games and AI.",
       "footer.contact": "Write to us:", "footer.rights": "All rights reserved",
+      "footer.jnPrivacy": "Jinns Night Privacy Policy",
       "menu.open": "Open menu", "menu.close": "Close menu", "lang.switch": "Switch language to Arabic",
     },
     ar: {
@@ -70,6 +71,7 @@
       "careers.cta": "اطّلع على الوظائف",
       "footer.line": "شركة ناشئة من الرياض تصل بين ألعاب الجوال والذكاء الاصطناعي.",
       "footer.contact": "راسلنا:", "footer.rights": "جميع الحقوق محفوظة",
+      "footer.jnPrivacy": "سياسة الخصوصية للعبة ليلة الجن",
       "menu.open": "افتح القائمة", "menu.close": "أغلق القائمة", "lang.switch": "Switch language to English",
     },
   };
